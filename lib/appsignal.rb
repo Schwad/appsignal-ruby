@@ -707,4 +707,3 @@ require "appsignal/rack/js_exception_catcher"
 require "appsignal/js_exception_transaction"
 require "appsignal/transmitter"
 require "appsignal/system"
-AppSignal = Appsignal
