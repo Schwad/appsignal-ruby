@@ -2,6 +2,8 @@ require "json"
 require "logger"
 require "securerandom"
 
+
+AppSignal = Appsignal
 # AppSignal for Ruby gem's main module.
 #
 # Provides method to control the AppSignal instrumentation and the system agent.
