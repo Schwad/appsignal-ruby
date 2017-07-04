@@ -1,6 +1,7 @@
 Appsignal.logger.info("Loading Rails (#{Rails.version}) integration")
 
 require "appsignal/rack/rails_instrumentation"
+AppSignal = Appsignal
 
 module Appsignal
   module Integrations
