@@ -2,8 +2,6 @@ require "json"
 require "logger"
 require "securerandom"
 
-
-AppSignal = Appsignal
 # AppSignal for Ruby gem's main module.
 #
 # Provides method to control the AppSignal instrumentation and the system agent.
@@ -709,3 +707,4 @@ require "appsignal/rack/js_exception_catcher"
 require "appsignal/js_exception_transaction"
 require "appsignal/transmitter"
 require "appsignal/system"
+AppSignal = Appsignal
